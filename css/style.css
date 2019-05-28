@@ -1,0 +1,45 @@
+
+
+.bg
+{
+    background-image: url("../img/bearBack.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+.hauteur100{
+    height: 998px;
+}
+
+.white{
+    color: white;
+}
+
+.marginBas
+{
+    margin-bottom: 15px;
+}
+.bg-brown{
+    background-color: brown;
+}
+
+@media only screen and (max-width: 576px){
+
+    h3{
+        color: red;
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 576px){
+
+    h3{
+        color: green;
+    }
+}
+.margin{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
